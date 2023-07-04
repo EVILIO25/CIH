@@ -1,2 +1,2 @@
 # CIH
-it's a website thats allaw u to sersh in what u need in one picture from Wikipedia 
+it's a website that's allow u to search in what u need in one picture from Wikipedia 
