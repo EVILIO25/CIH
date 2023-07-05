@@ -34,9 +34,8 @@ html {
   width: 300px;
   height: auto;
   flex: 1;
-  height: 120%;
   max-width: 100%;
-  margin-right: 60rem;
+  /* margin-right: 60rem; */
   border-radius: 30rem;
   transform: translate3d(10);
   transform: bottom ls;
@@ -48,6 +47,12 @@ html {
   cursor: pointer;
   padding-left:400px ;
 
+}
+@media only screen and (max-width: 991px){
+  /* CSS that should be displayed if width is equal to or less than 991px goes here */
+  #logo img{
+    width: 200px;
+  }
 }
 
 .vertical-line {

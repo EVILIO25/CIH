@@ -14,7 +14,6 @@
 }
 html{
   scroll-behavior: smooth;
-
 }
 
 html {
@@ -30,17 +29,16 @@ html {
   align-items: center;
   background-color: #252731;
   max-height: 8rem;
+  /* max-width: 100%; */
   max-width: 100rem;
   padding: 21px;
 }
 
 #logo img {
   width: 300px;
-  height: auto;
   flex: 1;
-  height: 120%;
-  max-width: 100%;
-  margin-right: 60rem;
+  /* width: 50%; */
+  /* margin-right: 60rem; */
   border-radius: 30rem;
   transform: translate3d(10);
   transform: bottom ls;
@@ -50,7 +48,15 @@ html {
 #mobile-toggle {
   font-size: 24px;
   cursor: pointer;
-  padding-left:400px ;
+  padding-left:100% ;
+  /* padding-left:400px ; */
+}
+
+@media only screen and (max-width: 991px){
+  /* CSS that should be displayed if width is equal to or less than 991px goes here */
+  #logo img{
+    width: 200px;
+  }
 }
 
 body {
@@ -74,6 +80,7 @@ body::before {
 }
 
 main {
+  /* max-width: 100%; */
   max-width: 1366px;
   margin: 0 auto;
 }
